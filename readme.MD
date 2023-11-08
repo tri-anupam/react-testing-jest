@@ -21,3 +21,23 @@
 - Automated tests are program that automates the task of testing your software
 - Write code to test the software code
 - Additional effort required when you develop a feature
+
+#### Advantages
+
+- Not time Consuming
+- Reliable, consistent and not error prone
+- Easy to indentify and fix features that break tests
+- Gives confidence when shipping software
+
+## JEST vs RTL
+
+### Jest
+
+- Jest is a javascript testing framework
+- Jest is a test that finds tests, runs the test, determines whether the tests passed or failed and reports it back in a human readable manner.
+
+### RTL
+
+- Javascript testing utility that provides virtual DOM for testing React components
+- Testing Library is infact a family of package which helps test UI components
+- The core library is called DOM Testin library and RTL is simply a wrapper around this core library to test React applications in an easier way.
