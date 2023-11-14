@@ -40,4 +40,30 @@
 
 - Javascript testing utility that provides virtual DOM for testing React components
 - Testing Library is infact a family of package which helps test UI components
-- The core library is called DOM Testin library and RTL is simply a wrapper around this core library to test React applications in an easier way.
+- The core library is called DOM Testing library and RTL is simply a wrapper around this core library to test React applications in an easier way.
+
+## Types of tests
+
+- Unit Test
+- Integration Test
+- End to End(E2E) Test
+
+### Unit Test
+
+- Focus is on testing the individual building blocks of an application such as a class or a function or a function or a component
+- Each unit or building blocks is tested in isolation, independent of other units
+- Dependencies are mocked
+- Run in a short amount of time and make it very easy to pinpoint failures
+- Relatively easier to write and maintain
+
+### Integration Test
+
+- Focus is on testing a combination of units and ensuring they work together.
+- Take longer than unit test
+
+### E2E Test
+
+- Focus is on testing the entire application flow and ensuring it works as designed from start to finish.
+- Involves in a real UI, a ral backend database, real services etc.
+- Take the longest as they cover the most amount of code
+- Have a cost implication as you interact with real APIs that may charge based on the number of requests.
